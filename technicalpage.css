@@ -1,0 +1,92 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set styles for the main container */
+#main-doc {
+  margin-left: 220px; /* Adjust this value as needed for your design */
+  padding: 20px;
+}
+
+/* Set styles for the section elements */
+.main-section {
+  margin-bottom: 40px;
+}
+
+/* Set styles for the headers within sections */
+.main-section header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Set styles for paragraphs within sections */
+.main-section p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Set styles for code elements within sections */
+.main-section code {
+  font-family: Consolas, monospace;
+  background-color: #f8f8f8;
+  padding: 2px 4px;
+}
+
+/* Set styles for list items within sections */
+.main-section li {
+  margin-bottom: 5px;
+}
+
+/* Set styles for the navigation container */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px; /* Adjust this value as needed for your design */
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Set styles for the navigation header */
+#navbar header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Set styles for the navigation links */
+#navbar .nav-link {
+  display: block;
+  color: #fff;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+/* Set styles for the active navigation link */
+#navbar .nav-link.active {
+  font-weight: bold;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  #main-doc {
+    margin-left: 0;
+  }
+
+  #navbar {
+    display: none;
+  }
+}
